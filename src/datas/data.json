@@ -25,5 +25,43 @@
              "button": "Hire me",
              "link": "#"
          }
-     ]
+    ],
+    "motion": [
+        {
+            "number": 1,
+            "title": "Image 1",
+            "image": "motion1.jpg",
+            "link": "#"
+        },
+        {
+            "number": 2,
+            "title": "Image 2",
+            "image": "motion2.jpg",
+            "link": "#"
+        },
+        {
+            "number": 3,
+            "title": "Image 3",
+            "image": "motion3.jpg",
+            "link": "#"
+        },
+        {
+            "number": 4,
+            "title": "Image 4",
+            "image": "motion4.jpg",
+            "link": "#"
+        },
+        {
+            "number": 5,
+            "title": "Image 5",
+            "image": "motion5.jpg",
+            "link": "#"
+        },
+        {
+            "number": 6,
+            "title": "Image 6",
+            "image": "motion6.jpg",
+            "link": "#"
+        }
+    ]
 }

@@ -1,0 +1,17 @@
+@use "../../variables.scss";
+
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the Footer component.
+// -----------------------------------------------------------------------------
+
+/**
+* Footer styles
+**/
+.footer {
+    background-color: rgb(24, 29, 78);
+    height: 20vh;
+
+    @media (max-width: 1023px) {
+        height: 40vh;
+    }
+}

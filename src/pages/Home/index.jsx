@@ -1,5 +1,7 @@
 import "./styles.scss";
 import Hero from "../../components/Hero";
+import Carousel from "../../components/Carousel";
+import Motion from "../../components/Motion";
 
 /**
  * Render Page : Home
@@ -13,10 +15,12 @@ function Home() {
 	return (
         <main>
 			<Hero />
-            <h1>Je suis un H1</h1>
-			<section>
-				<h2>Je suis un H2 dans une section</h2>
-			</section>
+			<div className="welcome-container">
+				<h1>Welcome Riders</h1>
+			</div>
+			<Carousel />
+
+			<Motion />
 		</main>
     );
 };

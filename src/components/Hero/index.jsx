@@ -15,11 +15,15 @@ function Hero() {
                 <div className="hero-text-wrapper">
                     <div className="hero-text-subtitle">Sors de ton lit,</div>
                     <div className="hero-text-title">
-                        <p>Viens faire du ski !</p>
+                        <p>
+                            Viens faire <br /> 
+                            du ski !
+                        </p>
                     </div>
                     <button>S'inscrire</button>
                 </div>
             </div>
+            <div className="hero-deco">Snow</div>
             <div className="hero-image"></div>
         </div>
     );

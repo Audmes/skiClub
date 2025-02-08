@@ -11,4 +11,9 @@
     display: flex;   
     flex-direction: row;
     gap: 20px;
+
+    & img {
+        filter: invert(100%);
+        -webkit-filter: invert(100%);
+    }
 }

@@ -4,7 +4,6 @@
   "homepage": "https://audmes.github.io/skiClub/",
   "author": "Audrey Mesnage (https://github.com/Audmes/)",
   "description": "Une application pour un club de ski",
-  "type": "module",
   "private": true,
   "dependencies": {
     "cra-template": "1.2.0",
