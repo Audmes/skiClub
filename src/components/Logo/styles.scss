@@ -1,0 +1,23 @@
+@use "../../variables.scss";
+
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the Logo component.
+// -----------------------------------------------------------------------------
+
+/**
+* Logo styles
+**/
+.logo {
+    &-container {
+        display: flex;
+        flex-direction: row; 
+        align-items: center; 
+        gap: 15px;
+    }
+
+    &-text {
+        font-size: variables.pxToRem(20);
+        line-height: 30px;
+        font-weight: bold;  
+    }
+}

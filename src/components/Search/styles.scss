@@ -1,0 +1,14 @@
+@use "../../variables.scss";
+
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the Search component.
+// -----------------------------------------------------------------------------
+
+/**
+* Search styles
+**/
+.search-container {
+    display: flex;   
+    flex-direction: row;
+    gap: 20px;
+}

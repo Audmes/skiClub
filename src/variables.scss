@@ -1,0 +1,120 @@
+// -----------------------------------------------------------------------------
+// This file contains all variables.
+// -----------------------------------------------------------------------------
+@font-face {
+  font-family: 'termina-regular';
+  src: url('./assets/fonts/termina-regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+  display: swap;
+}
+@font-face {
+  font-family: 'DMSans-Regular';
+  src: url('./assets/fonts/DMSans-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+  display: swap;
+}
+
+:root {
+    --color-primary: rgb(143, 215, 55);
+    --color-primary--darkmode: rgb(143, 215, 55);
+    
+    --color-secondary: rgb(230, 89, 21);
+    --color-secondary--darkmode: rgb(230, 89, 21);
+
+    --theme-color-text_light: #76797B;
+    --theme-color-text_dark: rgb(24, 29, 78);
+
+    --light: #F5F8F2;
+    --dark: #252C30;
+
+    --success: #198754;
+    --info: #0dcaf0;
+    --warning: #ffc107;
+    --danger: #dc3545;
+  
+    --blue: #0d6efd;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #d63384;
+    --red: #dc3545;
+    --orange: rgb(230, 89, 21);
+    --yellow: #ffc107;
+    --green: rgb(143, 215, 55);
+    --teal: #20c997;
+    --cyan: #0dcaf0;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+  
+    --font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+  
+    --gutter-x: 1.5rem;
+    --gutter-y: 0;
+}
+  
+    $breakpoints: (
+        small: 320px,
+        medium: 768px,
+        large: 1024px,
+        desktop: 1440px
+    );
+  
+    $breakpoint-desktop: 769px;
+  
+    $wmin: 320px; /* 375px */
+    $wmax: 768px;
+  
+  // -----------------------------------------------------------------------------
+  // Colors variables.
+  // -----------------------------------------------------------------------------
+  $primary-color: var(--orange);
+  $secondary-color: var(--green);
+  $tertiary-color: #ffffff;
+  
+  /* Body colors */
+  $background-color: burlywood;
+  $text-color: #000000;
+  $text-color--hover: #ff0101;
+  
+  /* Header colors */
+  $header-bg-color: #1e1e1e;
+  $header-text-color: #ffffff;
+  
+  /* Logo colors */
+  $logo-bg-color: #5b5b5b;
+  $logo-text-color: #ffffff;
+  
+  /* Nav colors */
+  $nav-bg-color: #697565;
+  $nav-text-color: darkgrey;
+  
+  /* Main colors */
+  $main-bg-color: #ECDFCC;
+  $main-text-color: darkgrey;
+  
+  /* Footer colors */
+  $footer-bg-color: #252525;
+  $footer-text-color: #B0B9AE;
+  
+  /* Credits colors */
+  $credits-bg-color: #252525;
+  $credits-text-color: #B0B9AE;
+  
+  $linear-cards: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+
+// -----------------------------------------------------------------------------
+// All functions.
+// -----------------------------------------------------------------------------
+/* This is a function that will be used to convert Px to Rem. */
+@function pxToRem($pxValue) {
+    $remValue: calc($pxValue / 16) + rem; 
+    @return $remValue;
+}

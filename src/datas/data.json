@@ -1,0 +1,29 @@
+{
+    "logo": [
+         {
+             "text": "Logo",
+             "image": "logo.webp",
+             "link": "#"
+         }
+     ],
+     "nav": [
+         {
+             "home": "Accueil",
+             "about": "Le Ski Club",
+             "events": "Sorties",
+             "stage": "Stage de Fevrier",
+             "tarifs": "Tarifs",
+             "contact": "Contacts"
+         }
+     ],
+     "hero": [
+         {
+             "number": 1,
+             "title": "I am John Doe",
+             "subtitle": "And I'm a Photographer",
+             "image": "Fashion_Yellow_Beach.webp",
+             "button": "Hire me",
+             "link": "#"
+         }
+     ]
+}
