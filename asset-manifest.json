@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/skiClub/static/css/main.ddb5a702.css",
+    "main.js": "/skiClub/static/js/main.227c464e.js",
+    "static/media/hero.webp": "/skiClub/static/media/hero.e18c09eb722c74a88959.webp",
+    "static/media/DMSans-Regular.ttf": "/skiClub/static/media/DMSans-Regular.36401d66ca415d09e170.ttf",
+    "static/media/termina-regular.ttf": "/skiClub/static/media/termina-regular.335782e64ae768bd7054.ttf",
+    "index.html": "/skiClub/index.html",
+    "main.ddb5a702.css.map": "/skiClub/static/css/main.ddb5a702.css.map",
+    "main.227c464e.js.map": "/skiClub/static/js/main.227c464e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ddb5a702.css",
+    "static/js/main.227c464e.js"
+  ]
+}
