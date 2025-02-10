@@ -32,6 +32,7 @@
         align-items: center;
         justify-content: center;
         background-color: rgb(253, 102, 30);
+        z-index: 2;
 
         & img {
             filter: invert(100%);
@@ -42,12 +43,18 @@
     &-slides {
         width: 100%;
         height: 100%;
-        background-color: brown;
+        background-color: black;
         aspect-ratio: auto 370 / 370;
 
         & img {
             width: 100%;
             height: auto;
+            opacity: 1;
+            transition: all .2s;
+
+            &:hover {
+                opacity: .8;
+            }
         }
     }
 }
