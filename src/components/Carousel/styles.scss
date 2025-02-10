@@ -48,7 +48,7 @@
         font-weight: 500;
         line-height: 18px;
         letter-spacing: 0.9px;
-        margin-top: 40px;
+        margin-top: 0;
         margin-bottom: 1.9em;
         color: rgb(24, 29, 78);
         text-transform: uppercase;
@@ -92,6 +92,7 @@
         line-height: 26.352px;
         letter-spacing: normal;
         margin-top: 1.4em;
+        margin-bottom: 1em;
 
         @media (max-width: 1023px) {
             width: 100%;
@@ -115,10 +116,12 @@
         & img {
             width: 100%;
             height: auto;
+            margin-bottom: 0;
 
             @media (max-width: 1023px) {
                 max-height: 300px;
                 object-fit: cover;
+                margin-bottom: 1.4em;
             }
         }
     }
