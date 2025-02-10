@@ -19,22 +19,22 @@ function Motion() {
                 </a>
             </div>
             <div className="motion-slides">
-                <img src={require('../../assets/images/motion/motion1.jpg')} alt="img1" ></img>
+                <img src={require('../../assets/images/motion/motion1.webp')} alt="img1" ></img>
             </div>
             <div className="motion-slides">
-                <img src={require('../../assets/images/motion/motion2.jpg')} alt="img2" ></img>
+                <img src={require('../../assets/images/motion/motion2.webp')} alt="img2" ></img>
             </div>
             <div className="motion-slides">
-                <img src={require('../../assets/images/motion/motion3.jpg')} alt="img3" ></img>
+                <img src={require('../../assets/images/motion/motion3.webp')} alt="img3" ></img>
             </div>
             <div className="motion-slides">
-                <img src={require('../../assets/images/motion/motion4.jpg')} alt="img4" ></img>
+                <img src={require('../../assets/images/motion/motion4.webp')} alt="img4" ></img>
             </div>
             <div className="motion-slides">
-                <img src={require('../../assets/images/motion/motion5.jpg')} alt="img5" ></img>
+                <img src={require('../../assets/images/motion/motion5.webp')} alt="img5" ></img>
             </div>
             <div className="motion-slides">
-                <img src={require('../../assets/images/motion/motion6.jpg')} alt="img6" ></img>
+                <img src={require('../../assets/images/motion/motion6.webp')} alt="img6" ></img>
             </div>
         </div>
     );
