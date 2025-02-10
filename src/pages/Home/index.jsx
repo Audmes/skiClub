@@ -1,6 +1,7 @@
 import "./styles.scss";
 import Hero from "../../components/Hero";
 import Carousel from "../../components/Carousel";
+import About from "../../components/About";
 import Motion from "../../components/Motion";
 
 /**
@@ -16,9 +17,7 @@ function Home() {
         <main>
 			<Hero />
 			<Carousel />
-			<section>
-				
-			</section>
+			<About />
 			<Motion />
 		</main>
     );
