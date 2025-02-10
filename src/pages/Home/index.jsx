@@ -15,11 +15,10 @@ function Home() {
 	return (
         <main>
 			<Hero />
-			<div className="welcome-container">
-				<h1>Welcome Riders</h1>
-			</div>
 			<Carousel />
-
+			<section>
+				
+			</section>
 			<Motion />
 		</main>
     );
